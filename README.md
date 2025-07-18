@@ -1,16 +1,59 @@
-# authentication
+# 🔐 Flutter Firebase Auth Boilerplate
 
-A new Flutter project.
+A ready-to-use Flutter boilerplate for Firebase Authentication. This project provides a complete authentication flow with:
 
-## Getting Started
+- ✅ Email & Password Sign Up / Login
+- 🔁 Password Reset (Forgot Password)
+- 📧 Email Verification
+- 🔐 Google Sign-In using Firebase
+- 🎯 Clean & Reusable UI
 
-This project is a starting point for a Flutter application.
+Save time by using this boilerplate in any new Flutter project that needs authentication.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🚀 Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Firebase Authentication integration
+- Sign up with email & password
+- Email verification link
+- Login with email/password or Google
+- Forgot password with reset email
+- Firebase configuration ready for Android and iOS
+- Responsive and clean UI
+
+---
+
+## 📂 Folder Structure
+
+
+---
+
+## 🔧 Setup Instructions
+
+### 1. 🔁 Clone the Project
+
+```bash
+git clone https://github.com/Princee99/Authentication.git
+cd Authentication
+flutter pub get
+
+```
+
+## 3. 🔥 Set Up Firebase
+Create a Firebase project at console.firebase.google.com
+
+Add Android app to your Firebase project.
+
+Download:
+
+google-services.json for Android → place it in android/app/
+
+## 🧪 Tech Stack
+Flutter - Cross-platform UI toolkit
+
+Firebase Auth - Backend service for authentication
+
+Dart - Programming language used in Flutter
+
+
